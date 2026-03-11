@@ -1,3 +1,5 @@
+`timescale 1ns/1ps
+
 module gc_edram_model #(
     parameter ADDR_WIDTH = 9,       
     parameter DATA_WIDTH = 64,      
@@ -21,8 +23,8 @@ module gc_edram_model #(
 
     integer decay_counters [0:NUM_LINES-1];
 
-    initial begin
-        $readmemh("drt_times.mem", drt_values);
+initial begin
+        $readmemh("../DRT_ARRAYS/drt_times.mem", drt_values);
     end
 
     integer i;

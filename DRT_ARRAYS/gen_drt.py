@@ -5,7 +5,7 @@ NUM_LINES = 512
 NUM_BAD = 64
 
 # 1. יצירת מערך DRT לכל התאים (5-20 מחזורי שעון)
-drt_array = [random.randint(5, 100) for _ in range(NUM_LINES)]
+drt_array = [random.randint(100, 500) for _ in range(NUM_LINES)]
 
 # 2. מציאת הכתובות הגרועות (מערך של 64 כתובות)
 # יוצרים רשימת זוגות של (כתובת, DRT) וממיינים לפי ה-DRT

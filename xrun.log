@@ -1,0 +1,11 @@
+xrun(64): 23.09-s013: (c) Copyright 1995-2024 Cadence Design Systems, Inc.
+TOOL:	xrun(64)	23.09-s013: Started on Mar 11, 2026 at 15:36:33 UTC
+xrun
+	GC_DRAM_512_TB.v
+	GC_DRAM_512.v
+	+access+rwc
+	-gui
+	-clean
+xrun: *E,FILEMIS: Cannot find the provided file GC_DRAM_512_TB.v.
+xrun: *E,FILEMIS: Cannot find the provided file GC_DRAM_512.v.
+TOOL:	xrun(64)	23.09-s013: Exiting on Mar 11, 2026 at 15:36:34 UTC  (total: 00:00:01)
