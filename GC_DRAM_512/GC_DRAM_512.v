@@ -1,7 +1,7 @@
 `timescale 1ns/1ps
 
-module gc_edram_model #(
-    parameter ADDR_WIDTH = 9,       
+module gc_edram_model_512 #(
+    parameter ADDR_WIDTH = 9,       // 9 bits for 512 lines
     parameter DATA_WIDTH = 64,      
     parameter NUM_LINES  = 512
 )(
@@ -16,18 +16,10 @@ module gc_edram_model #(
 );
 
     reg [DATA_WIDTH-1:0] mem [0:NUM_LINES-1];
-
- 
-    integer drt_values [0:NUM_LINES-1];
-
-
+    integer drt_values [0:NUM_LINES-1]; // Populated hierarchically by Top-Level
     integer decay_counters [0:NUM_LINES-1];
-
-initial begin
-        $readmemh("../DRT_ARRAYS/drt_times.mem", drt_values);
-    end
-
     integer i;
+
     always @(posedge clk or negedge rst_n) begin
         if (!rst_n) begin
             for (i = 0; i < NUM_LINES; i = i + 1) begin
@@ -36,13 +28,11 @@ initial begin
             end
         end else begin
             for (i = 0; i < NUM_LINES; i = i + 1) begin
-                
                 if (we && (write_addr == i)) begin
                     mem[i] <= din;
                     decay_counters[i] <= 0;
-                end 
-                
-                else begin
+                end else begin
+                    // Decay logic based on externally provided DRT values
                     if (decay_counters[i] < drt_values[i]) begin
                         decay_counters[i] <= decay_counters[i] + 1;
                     end else begin

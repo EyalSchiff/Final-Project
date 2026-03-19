@@ -1,0 +1,158 @@
+xrun(64): 23.09-s013: (c) Copyright 1995-2024 Cadence Design Systems, Inc.
+TOOL:	xrun(64)	23.09-s013: Started on Mar 19, 2026 at 10:52:43 UTC
+xrun
+	OPT_GC_DRAM_4096.v
+	OPT_GC_DRAM_4096_TB.v
+	+access+rwc
+	-gui
+	-clean
+xrun: *N,CLEAN: Removing existing directory ./xcelium.d.
+SOFTINCLUDE $XPEDION/aa/cds.lib
+|
+xrun: *W,DLCVAR (/tools/rubyeda/RubySKILL/r20251120.2/cds.site.lib,13): cds.lib Invalid environment variable ''.
+SOFTINCLUDE $EMXHOME/emxinterface/cds.lib
+|
+xrun: *W,DLCVAR (/tools/rubyeda/RubySKILL/r20251120.2/cds.site.lib,15): cds.lib Invalid environment variable ''.
+SOFTINCLUDE $XPEDION/aa/cds.lib
+|
+xrun: *W,DLCVAR (/tools/rubyeda/RubySKILL/r20251120.2/cds.site.lib,13): cds.lib Invalid environment variable ''.
+SOFTINCLUDE $EMXHOME/emxinterface/cds.lib
+|
+xrun: *W,DLCVAR (/tools/rubyeda/RubySKILL/r20251120.2/cds.site.lib,15): cds.lib Invalid environment variable ''.
+SOFTINCLUDE $XPEDION/aa/cds.lib
+|
+xrun: *W,DLCVAR (/tools/rubyeda/RubySKILL/r20251120.2/cds.site.lib,13): cds.lib Invalid environment variable ''.
+SOFTINCLUDE $EMXHOME/emxinterface/cds.lib
+|
+xrun: *W,DLCVAR (/tools/rubyeda/RubySKILL/r20251120.2/cds.site.lib,15): cds.lib Invalid environment variable ''.
+SOFTINCLUDE $XPEDION/aa/cds.lib
+|
+xrun: *W,DLCVAR (/tools/rubyeda/RubySKILL/r20251120.2/cds.site.lib,13): cds.lib Invalid environment variable ''.
+SOFTINCLUDE $EMXHOME/emxinterface/cds.lib
+|
+xrun: *W,DLCVAR (/tools/rubyeda/RubySKILL/r20251120.2/cds.site.lib,15): cds.lib Invalid environment variable ''.
+SOFTINCLUDE $XPEDION/aa/cds.lib
+|
+xrun: *W,DLCVAR (/tools/rubyeda/RubySKILL/r20251120.2/cds.site.lib,13): cds.lib Invalid environment variable ''.
+SOFTINCLUDE $EMXHOME/emxinterface/cds.lib
+|
+xrun: *W,DLCVAR (/tools/rubyeda/RubySKILL/r20251120.2/cds.site.lib,15): cds.lib Invalid environment variable ''.
+SOFTINCLUDE $XPEDION/aa/cds.lib
+|
+xmvlog: *W,DLCVAR (/tools/rubyeda/RubySKILL/r20251120.2/cds.site.lib,13): cds.lib Invalid environment variable ''.
+SOFTINCLUDE $EMXHOME/emxinterface/cds.lib
+|
+xmvlog: *W,DLCVAR (/tools/rubyeda/RubySKILL/r20251120.2/cds.site.lib,15): cds.lib Invalid environment variable ''.
+file: OPT_GC_DRAM_4096.v
+	module worklib.gc_edram_model_4096:v
+		errors: 0, warnings: 0
+	module worklib.gc_lut_512:v
+		errors: 0, warnings: 0
+	module worklib.sram_512:v
+		errors: 0, warnings: 0
+	module worklib.OPT_GC_DRAM_4096:v
+		errors: 0, warnings: 0
+file: OPT_GC_DRAM_4096_TB.v
+	module worklib.OPT_GC_DRAM_4096_TB:v
+		errors: 0, warnings: 0
+	Total errors/warnings found outside modules and primitives:
+		errors: 0, warnings: 2
+SOFTINCLUDE $XPEDION/aa/cds.lib
+|
+xrun: *W,DLCVAR (/tools/rubyeda/RubySKILL/r20251120.2/cds.site.lib,13): cds.lib Invalid environment variable ''.
+SOFTINCLUDE $EMXHOME/emxinterface/cds.lib
+|
+xrun: *W,DLCVAR (/tools/rubyeda/RubySKILL/r20251120.2/cds.site.lib,15): cds.lib Invalid environment variable ''.
+SOFTINCLUDE $XPEDION/aa/cds.lib
+|
+xrun: *W,DLCVAR (/tools/rubyeda/RubySKILL/r20251120.2/cds.site.lib,13): cds.lib Invalid environment variable ''.
+SOFTINCLUDE $EMXHOME/emxinterface/cds.lib
+|
+xrun: *W,DLCVAR (/tools/rubyeda/RubySKILL/r20251120.2/cds.site.lib,15): cds.lib Invalid environment variable ''.
+SOFTINCLUDE $XPEDION/aa/cds.lib
+|
+xmelab: *W,DLCVAR (/tools/rubyeda/RubySKILL/r20251120.2/cds.site.lib,13): cds.lib Invalid environment variable ''.
+SOFTINCLUDE $EMXHOME/emxinterface/cds.lib
+|
+xmelab: *W,DLCVAR (/tools/rubyeda/RubySKILL/r20251120.2/cds.site.lib,15): cds.lib Invalid environment variable ''.
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	Top level design units:
+		OPT_GC_DRAM_4096_TB
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+SOFTINCLUDE $XPEDION/aa/cds.lib
+|
+xmvlog_cg: *W,DLCVAR (/tools/rubyeda/RubySKILL/r20251120.2/cds.site.lib,13): cds.lib Invalid environment variable ''.
+SOFTINCLUDE $EMXHOME/emxinterface/cds.lib
+|
+xmvlog_cg: *W,DLCVAR (/tools/rubyeda/RubySKILL/r20251120.2/cds.site.lib,15): cds.lib Invalid environment variable ''.
+		worklib.sram_512:v <0x28fccc0e>
+			streams:   3, words:  1671
+		worklib.gc_lut_512:v <0x7fc49975>
+			streams:   2, words:  1183
+		worklib.gc_edram_model_4096:v <0x068b7f1c>
+			streams:   9, words:  5105
+		worklib.OPT_GC_DRAM_4096_TB:v <0x1c197c58>
+			streams:  10, words: 14261
+		worklib.OPT_GC_DRAM_4096:v <0x285c5f73>
+			streams:   1, words:   531
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                 Instances  Unique
+		Modules:                 6       5
+		Registers:              25      21
+		Scalar wires:            8       -
+		Vectored wires:          8       -
+		Always blocks:           8       7
+		Initial blocks:          5       4
+		Cont. assignments:       0       2
+		Pseudo assignments:      7       -
+		Process Clocks:          2       2
+		Simulation timescale:  1ps
+	Writing initial simulation snapshot: worklib.OPT_GC_DRAM_4096_TB:v
+SOFTINCLUDE $XPEDION/aa/cds.lib
+|
+xmsim: *W,DLCVAR (/tools/rubyeda/RubySKILL/r20251120.2/cds.site.lib,13): cds.lib Invalid environment variable ''.
+SOFTINCLUDE $EMXHOME/emxinterface/cds.lib
+|
+xmsim: *W,DLCVAR (/tools/rubyeda/RubySKILL/r20251120.2/cds.site.lib,15): cds.lib Invalid environment variable ''.
+xmsim: *W,NOMTDGUI: Multi-Threaded Dumping is disabled for interactive debug mode.
+
+-------------------------------------
+Relinquished control to SimVision...
+xcelium> 
+xcelium> source /tools/cadence/XCELIUM/23.09.013/tools/xcelium/files/xmsimrc
+xcelium> database -open waves -into waves.shm -default
+Created default SHM database waves
+xcelium> probe -create -shm OPT_GC_DRAM_4096_TB.uut.clk OPT_GC_DRAM_4096_TB.uut.din OPT_GC_DRAM_4096_TB.uut.dout OPT_GC_DRAM_4096_TB.uut.dout_GC OPT_GC_DRAM_4096_TB.uut.dout_SRAM OPT_GC_DRAM_4096_TB.uut.re OPT_GC_DRAM_4096_TB.uut.read_SRAM_addr OPT_GC_DRAM_4096_TB.uut.read_addr OPT_GC_DRAM_4096_TB.uut.read_hit OPT_GC_DRAM_4096_TB.uut.rst_n OPT_GC_DRAM_4096_TB.uut.sram_read_en OPT_GC_DRAM_4096_TB.uut.sram_write_en OPT_GC_DRAM_4096_TB.uut.we OPT_GC_DRAM_4096_TB.uut.write_SRAM_addr OPT_GC_DRAM_4096_TB.uut.write_addr OPT_GC_DRAM_4096_TB.uut.write_hit
+Created probe 1
+xcelium> run
+xmsim: *W,SHMOFU: $shm_open - file waves.shm already in use (SHM database).
+            File: ./OPT_GC_DRAM_4096_TB.v, line = 47, pos = 16
+           Scope: OPT_GC_DRAM_4096_TB
+            Time: 0 FS + 0
+
+xmsim: *W,SHMNOSO: $shm_probe - SHM file not opened with $shm_open.
+            File: ./OPT_GC_DRAM_4096_TB.v, line = 48, pos = 17
+           Scope: OPT_GC_DRAM_4096_TB
+            Time: 0 FS + 0
+
+-----------------------------------------------------
+--- Starting Smart Memory Architecture Test ---
+Targeting SECOND Bad Address: 5da
+-----------------------------------------------------
+Time 40000: Data 'AAAA_BBBB_CCCC_DDDD' written to Address 5da.
+Time 55000:time of start naturally decay...
+Time 2055000: Waiting 2000ns for GC-eDRAM cell to naturally decay...
+
+Time 2055000: Read operation triggered.
+-> [INTERNAL CHECK] SUCCESS: The internal GC-eDRAM data has correctly decayed to 'X'.
+-> [FINAL OUTPUT CHECK] PASS: The Top-Level 'dout' holds the correct data from SRAM: aaaabbbbccccdddd
+-----------------------------------------------------
+Simulation complete via $finish(1) at time 2055 NS + 0
+./OPT_GC_DRAM_4096_TB.v:106         $finish;
+xcelium> ^C
+xcelium> exit
+TOOL:	xrun(64)	23.09-s013: Exiting on Mar 19, 2026 at 11:19:22 UTC  (total: 00:26:39)

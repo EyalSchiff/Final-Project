@@ -1,0 +1,145 @@
+xrun(64): 23.09-s013: (c) Copyright 1995-2024 Cadence Design Systems, Inc.
+TOOL:	xrun(64)	23.09-s013: Started on Mar 18, 2026 at 14:58:16 UTC
+xrun
+	SRAM_512.v
+	SRAM_512_TB.v
+	+access+rwc
+	-gui
+	-clean
+xrun: *N,CLEAN: Removing existing directory ./xcelium.d.
+SOFTINCLUDE $XPEDION/aa/cds.lib
+|
+xrun: *W,DLCVAR (/tools/rubyeda/RubySKILL/r20251120.2/cds.site.lib,13): cds.lib Invalid environment variable ''.
+SOFTINCLUDE $EMXHOME/emxinterface/cds.lib
+|
+xrun: *W,DLCVAR (/tools/rubyeda/RubySKILL/r20251120.2/cds.site.lib,15): cds.lib Invalid environment variable ''.
+SOFTINCLUDE $XPEDION/aa/cds.lib
+|
+xrun: *W,DLCVAR (/tools/rubyeda/RubySKILL/r20251120.2/cds.site.lib,13): cds.lib Invalid environment variable ''.
+SOFTINCLUDE $EMXHOME/emxinterface/cds.lib
+|
+xrun: *W,DLCVAR (/tools/rubyeda/RubySKILL/r20251120.2/cds.site.lib,15): cds.lib Invalid environment variable ''.
+SOFTINCLUDE $XPEDION/aa/cds.lib
+|
+xrun: *W,DLCVAR (/tools/rubyeda/RubySKILL/r20251120.2/cds.site.lib,13): cds.lib Invalid environment variable ''.
+SOFTINCLUDE $EMXHOME/emxinterface/cds.lib
+|
+xrun: *W,DLCVAR (/tools/rubyeda/RubySKILL/r20251120.2/cds.site.lib,15): cds.lib Invalid environment variable ''.
+SOFTINCLUDE $XPEDION/aa/cds.lib
+|
+xrun: *W,DLCVAR (/tools/rubyeda/RubySKILL/r20251120.2/cds.site.lib,13): cds.lib Invalid environment variable ''.
+SOFTINCLUDE $EMXHOME/emxinterface/cds.lib
+|
+xrun: *W,DLCVAR (/tools/rubyeda/RubySKILL/r20251120.2/cds.site.lib,15): cds.lib Invalid environment variable ''.
+SOFTINCLUDE $XPEDION/aa/cds.lib
+|
+xrun: *W,DLCVAR (/tools/rubyeda/RubySKILL/r20251120.2/cds.site.lib,13): cds.lib Invalid environment variable ''.
+SOFTINCLUDE $EMXHOME/emxinterface/cds.lib
+|
+xrun: *W,DLCVAR (/tools/rubyeda/RubySKILL/r20251120.2/cds.site.lib,15): cds.lib Invalid environment variable ''.
+SOFTINCLUDE $XPEDION/aa/cds.lib
+|
+xmvlog: *W,DLCVAR (/tools/rubyeda/RubySKILL/r20251120.2/cds.site.lib,13): cds.lib Invalid environment variable ''.
+SOFTINCLUDE $EMXHOME/emxinterface/cds.lib
+|
+xmvlog: *W,DLCVAR (/tools/rubyeda/RubySKILL/r20251120.2/cds.site.lib,15): cds.lib Invalid environment variable ''.
+file: SRAM_512.v
+	module worklib.sram_512:v
+		errors: 0, warnings: 0
+file: SRAM_512_TB.v
+	module worklib.sram_512_TB:v
+		errors: 0, warnings: 0
+	Total errors/warnings found outside modules and primitives:
+		errors: 0, warnings: 2
+SOFTINCLUDE $XPEDION/aa/cds.lib
+|
+xrun: *W,DLCVAR (/tools/rubyeda/RubySKILL/r20251120.2/cds.site.lib,13): cds.lib Invalid environment variable ''.
+SOFTINCLUDE $EMXHOME/emxinterface/cds.lib
+|
+xrun: *W,DLCVAR (/tools/rubyeda/RubySKILL/r20251120.2/cds.site.lib,15): cds.lib Invalid environment variable ''.
+SOFTINCLUDE $XPEDION/aa/cds.lib
+|
+xrun: *W,DLCVAR (/tools/rubyeda/RubySKILL/r20251120.2/cds.site.lib,13): cds.lib Invalid environment variable ''.
+SOFTINCLUDE $EMXHOME/emxinterface/cds.lib
+|
+xrun: *W,DLCVAR (/tools/rubyeda/RubySKILL/r20251120.2/cds.site.lib,15): cds.lib Invalid environment variable ''.
+SOFTINCLUDE $XPEDION/aa/cds.lib
+|
+xmelab: *W,DLCVAR (/tools/rubyeda/RubySKILL/r20251120.2/cds.site.lib,13): cds.lib Invalid environment variable ''.
+SOFTINCLUDE $EMXHOME/emxinterface/cds.lib
+|
+xmelab: *W,DLCVAR (/tools/rubyeda/RubySKILL/r20251120.2/cds.site.lib,15): cds.lib Invalid environment variable ''.
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	Top level design units:
+		sram_512_TB
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+SOFTINCLUDE $XPEDION/aa/cds.lib
+|
+xmvlog_cg: *W,DLCVAR (/tools/rubyeda/RubySKILL/r20251120.2/cds.site.lib,13): cds.lib Invalid environment variable ''.
+SOFTINCLUDE $EMXHOME/emxinterface/cds.lib
+|
+xmvlog_cg: *W,DLCVAR (/tools/rubyeda/RubySKILL/r20251120.2/cds.site.lib,15): cds.lib Invalid environment variable ''.
+		worklib.sram_512:v <0x28fccc0e>
+			streams:   3, words:  1671
+		worklib.sram_512_TB:v <0x76d34593>
+			streams:   9, words: 15777
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                 Instances  Unique
+		Modules:                 2       2
+		Registers:               9       9
+		Scalar wires:            3       -
+		Vectored wires:          4       -
+		Always blocks:           3       3
+		Initial blocks:          2       2
+		Pseudo assignments:      6       -
+		Process Clocks:          1       1
+		Simulation timescale:  1ps
+	Writing initial simulation snapshot: worklib.sram_512_TB:v
+SOFTINCLUDE $XPEDION/aa/cds.lib
+|
+xmsim: *W,DLCVAR (/tools/rubyeda/RubySKILL/r20251120.2/cds.site.lib,13): cds.lib Invalid environment variable ''.
+SOFTINCLUDE $EMXHOME/emxinterface/cds.lib
+|
+xmsim: *W,DLCVAR (/tools/rubyeda/RubySKILL/r20251120.2/cds.site.lib,15): cds.lib Invalid environment variable ''.
+xmsim: *W,NOMTDGUI: Multi-Threaded Dumping is disabled for interactive debug mode.
+
+-------------------------------------
+Relinquished control to SimVision...
+xcelium> 
+xcelium> source /tools/cadence/XCELIUM/23.09.013/tools/xcelium/files/xmsimrc
+xcelium> database -open waves -into waves.shm -default
+Created default SHM database waves
+xcelium> probe -create -shm sram_512_TB.SRAM_512.clk sram_512_TB.SRAM_512.din sram_512_TB.SRAM_512.dout sram_512_TB.SRAM_512.mem sram_512_TB.SRAM_512.re sram_512_TB.SRAM_512.read_addr sram_512_TB.SRAM_512.we sram_512_TB.SRAM_512.write_addr
+Created probe 1
+xcelium> run
+xmsim: *W,SHMOFU: $shm_open - file waves.shm already in use (SHM database).
+            File: ./SRAM_512_TB.v, line = 42, pos = 16
+           Scope: sram_512_TB
+            Time: 0 FS + 0
+
+xmsim: *W,SHMNOSO: $shm_probe - SHM file not opened with $shm_open.
+            File: ./SRAM_512_TB.v, line = 43, pos = 17
+           Scope: sram_512_TB
+            Time: 0 FS + 0
+
+-----------------------------------------
+--- Starting SRAM Verification ---
+-----------------------------------------
+Test 1: Write and Read from Address 10
+PASS: Read Addr 10 -> aaaabbbbccccdddd
+
+Test 2: Write and Read from Last Address (511)
+PASS: Read Addr 511 -> 1111222233334444
+
+Test 3: Check High-Z when Read Enable is OFF
+PASS: Output successfully transitioned to High-Z (z).
+-----------------------------------------
+SRAM Verification SUCCESS! (0 Errors)
+-----------------------------------------
+Simulation complete via $finish(1) at time 66 NS + 0
+./SRAM_512_TB.v:120         $finish;
+xcelium> TOOL:	xrun(64)	23.09-s013: Exiting on Mar 19, 2026 at 10:09:49 UTC  (total: 19:11:33)

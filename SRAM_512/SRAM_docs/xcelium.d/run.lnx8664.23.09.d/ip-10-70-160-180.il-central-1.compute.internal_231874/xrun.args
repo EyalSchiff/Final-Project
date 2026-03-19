@@ -1,0 +1,9 @@
+//
+// File created by:  xrun
+// Do not modify this file
+//
+SRAM_512.v
+SRAM_512_TB.v
++access+rwc
+-gui
+-clean

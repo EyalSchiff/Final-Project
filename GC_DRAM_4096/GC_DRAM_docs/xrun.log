@@ -1,0 +1,544 @@
+xrun(64): 23.09-s013: (c) Copyright 1995-2024 Cadence Design Systems, Inc.
+TOOL:	xrun(64)	23.09-s013: Started on Mar 19, 2026 at 11:35:34 UTC
+xrun
+	GC_DRAM_4096.v
+	GC_DRAM_4096_TB.v
+	+access+rwc
+	-gui
+	-clean
+xrun: *N,CLEAN: Removing existing directory ./xcelium.d.
+SOFTINCLUDE $XPEDION/aa/cds.lib
+|
+xrun: *W,DLCVAR (/tools/rubyeda/RubySKILL/r20251120.2/cds.site.lib,13): cds.lib Invalid environment variable ''.
+SOFTINCLUDE $EMXHOME/emxinterface/cds.lib
+|
+xrun: *W,DLCVAR (/tools/rubyeda/RubySKILL/r20251120.2/cds.site.lib,15): cds.lib Invalid environment variable ''.
+SOFTINCLUDE $XPEDION/aa/cds.lib
+|
+xrun: *W,DLCVAR (/tools/rubyeda/RubySKILL/r20251120.2/cds.site.lib,13): cds.lib Invalid environment variable ''.
+SOFTINCLUDE $EMXHOME/emxinterface/cds.lib
+|
+xrun: *W,DLCVAR (/tools/rubyeda/RubySKILL/r20251120.2/cds.site.lib,15): cds.lib Invalid environment variable ''.
+SOFTINCLUDE $XPEDION/aa/cds.lib
+|
+xrun: *W,DLCVAR (/tools/rubyeda/RubySKILL/r20251120.2/cds.site.lib,13): cds.lib Invalid environment variable ''.
+SOFTINCLUDE $EMXHOME/emxinterface/cds.lib
+|
+xrun: *W,DLCVAR (/tools/rubyeda/RubySKILL/r20251120.2/cds.site.lib,15): cds.lib Invalid environment variable ''.
+SOFTINCLUDE $XPEDION/aa/cds.lib
+|
+xrun: *W,DLCVAR (/tools/rubyeda/RubySKILL/r20251120.2/cds.site.lib,13): cds.lib Invalid environment variable ''.
+SOFTINCLUDE $EMXHOME/emxinterface/cds.lib
+|
+xrun: *W,DLCVAR (/tools/rubyeda/RubySKILL/r20251120.2/cds.site.lib,15): cds.lib Invalid environment variable ''.
+SOFTINCLUDE $XPEDION/aa/cds.lib
+|
+xrun: *W,DLCVAR (/tools/rubyeda/RubySKILL/r20251120.2/cds.site.lib,13): cds.lib Invalid environment variable ''.
+SOFTINCLUDE $EMXHOME/emxinterface/cds.lib
+|
+xrun: *W,DLCVAR (/tools/rubyeda/RubySKILL/r20251120.2/cds.site.lib,15): cds.lib Invalid environment variable ''.
+SOFTINCLUDE $XPEDION/aa/cds.lib
+|
+xmvlog: *W,DLCVAR (/tools/rubyeda/RubySKILL/r20251120.2/cds.site.lib,13): cds.lib Invalid environment variable ''.
+SOFTINCLUDE $EMXHOME/emxinterface/cds.lib
+|
+xmvlog: *W,DLCVAR (/tools/rubyeda/RubySKILL/r20251120.2/cds.site.lib,15): cds.lib Invalid environment variable ''.
+file: GC_DRAM_4096.v
+	module worklib.gc_edram_model_512:v
+		errors: 0, warnings: 0
+	module worklib.gc_edram_model_4096:v
+		errors: 0, warnings: 0
+file: GC_DRAM_4096_TB.v
+	module worklib.gc_edram_model_4096_TB:v
+		errors: 0, warnings: 0
+	Total errors/warnings found outside modules and primitives:
+		errors: 0, warnings: 2
+SOFTINCLUDE $XPEDION/aa/cds.lib
+|
+xrun: *W,DLCVAR (/tools/rubyeda/RubySKILL/r20251120.2/cds.site.lib,13): cds.lib Invalid environment variable ''.
+SOFTINCLUDE $EMXHOME/emxinterface/cds.lib
+|
+xrun: *W,DLCVAR (/tools/rubyeda/RubySKILL/r20251120.2/cds.site.lib,15): cds.lib Invalid environment variable ''.
+SOFTINCLUDE $XPEDION/aa/cds.lib
+|
+xrun: *W,DLCVAR (/tools/rubyeda/RubySKILL/r20251120.2/cds.site.lib,13): cds.lib Invalid environment variable ''.
+SOFTINCLUDE $EMXHOME/emxinterface/cds.lib
+|
+xrun: *W,DLCVAR (/tools/rubyeda/RubySKILL/r20251120.2/cds.site.lib,15): cds.lib Invalid environment variable ''.
+SOFTINCLUDE $XPEDION/aa/cds.lib
+|
+xmelab: *W,DLCVAR (/tools/rubyeda/RubySKILL/r20251120.2/cds.site.lib,13): cds.lib Invalid environment variable ''.
+SOFTINCLUDE $EMXHOME/emxinterface/cds.lib
+|
+xmelab: *W,DLCVAR (/tools/rubyeda/RubySKILL/r20251120.2/cds.site.lib,15): cds.lib Invalid environment variable ''.
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	Top level design units:
+		gc_edram_model_4096_TB
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+SOFTINCLUDE $XPEDION/aa/cds.lib
+|
+xmvlog_cg: *W,DLCVAR (/tools/rubyeda/RubySKILL/r20251120.2/cds.site.lib,13): cds.lib Invalid environment variable ''.
+SOFTINCLUDE $EMXHOME/emxinterface/cds.lib
+|
+xmvlog_cg: *W,DLCVAR (/tools/rubyeda/RubySKILL/r20251120.2/cds.site.lib,15): cds.lib Invalid environment variable ''.
+		worklib.gc_edram_model_4096_TB:v <0x2b2d5232>
+			streams:  10, words: 16383
+		worklib.gc_edram_model_4096:v <0x3e3c38d7>
+			streams:   7, words:  2614
+		worklib.gc_edram_model_512:v <0x0d19ee20>
+			streams:   8, words:  4816
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                 Instances  Unique
+		Modules:                10       3
+		Registers:              57      15
+		Scalar wires:           20       -
+		Vectored wires:         16       -
+		Always blocks:          18       4
+		Initial blocks:         12       5
+		Cont. assignments:      18       6
+		Pseudo assignments:      7       -
+		Process Clocks:          8       1
+		Simulation timescale:  1ps
+	Writing initial simulation snapshot: worklib.gc_edram_model_4096_TB:v
+SOFTINCLUDE $XPEDION/aa/cds.lib
+|
+xmsim: *W,DLCVAR (/tools/rubyeda/RubySKILL/r20251120.2/cds.site.lib,13): cds.lib Invalid environment variable ''.
+SOFTINCLUDE $EMXHOME/emxinterface/cds.lib
+|
+xmsim: *W,DLCVAR (/tools/rubyeda/RubySKILL/r20251120.2/cds.site.lib,15): cds.lib Invalid environment variable ''.
+xmsim: *W,NOMTDGUI: Multi-Threaded Dumping is disabled for interactive debug mode.
+
+-------------------------------------
+Relinquished control to SimVision...
+xcelium> 
+xcelium> source /tools/cadence/XCELIUM/23.09.013/tools/xcelium/files/xmsimrc
+xcelium> database -open waves -into waves.shm -default
+Created default SHM database waves
+xcelium> probe -create -shm gc_edram_model_4096_TB.dram.block_dout gc_edram_model_4096_TB.dram.block_re gc_edram_model_4096_TB.dram.block_we gc_edram_model_4096_TB.dram.clk gc_edram_model_4096_TB.dram.din gc_edram_model_4096_TB.dram.dout gc_edram_model_4096_TB.dram.global_drt_values gc_edram_model_4096_TB.dram.local_read_addr gc_edram_model_4096_TB.dram.local_write_addr gc_edram_model_4096_TB.dram.re gc_edram_model_4096_TB.dram.read_addr gc_edram_model_4096_TB.dram.read_block_sel gc_edram_model_4096_TB.dram.rst_n gc_edram_model_4096_TB.dram.we gc_edram_model_4096_TB.dram.write_addr gc_edram_model_4096_TB.dram.write_block_sel
+Created probe 1
+xcelium> run
+xmsim: *W,SHMOFU: $shm_open - file waves.shm already in use (SHM database).
+            File: ./GC_DRAM_4096_TB.v, line = 31, pos = 16
+           Scope: gc_edram_model_4096_TB
+            Time: 0 FS + 0
+
+xmsim: *W,SHMNOSO: $shm_probe - SHM file not opened with $shm_open.
+            File: ./GC_DRAM_4096_TB.v, line = 32, pos = 17
+           Scope: gc_edram_model_4096_TB
+            Time: 0 FS + 0
+
+Time 25000: Reset de-asserted. DRT for Addr 0 is 189 cycles.
+Time 25000: Reset de-asserted. DRT for Addr 4095 is 251 cycles.
+Time 35000: Data written to Address 0.
+Time 55000: Data written to Address 4095.
+Time 66000: Immediate Read. Data = ffffffffffffffff
+Time 76000: Immediate Read. Data = aaaaaaaaaaaaaaaa
+Time 86000: Immediate Read. Data = ffffffffffffffff
+Time 96000: Immediate Read. Data = aaaaaaaaaaaaaaaa
+Time 106000: Immediate Read. Data = ffffffffffffffff
+Time 116000: Immediate Read. Data = aaaaaaaaaaaaaaaa
+Time 126000: Immediate Read. Data = ffffffffffffffff
+Time 136000: Immediate Read. Data = aaaaaaaaaaaaaaaa
+Time 146000: Immediate Read. Data = ffffffffffffffff
+Time 156000: Immediate Read. Data = aaaaaaaaaaaaaaaa
+Time 166000: Immediate Read. Data = ffffffffffffffff
+Time 176000: Immediate Read. Data = aaaaaaaaaaaaaaaa
+Time 186000: Immediate Read. Data = ffffffffffffffff
+Time 196000: Immediate Read. Data = aaaaaaaaaaaaaaaa
+Time 206000: Immediate Read. Data = ffffffffffffffff
+Time 216000: Immediate Read. Data = aaaaaaaaaaaaaaaa
+Time 226000: Immediate Read. Data = ffffffffffffffff
+Time 236000: Immediate Read. Data = aaaaaaaaaaaaaaaa
+Time 246000: Immediate Read. Data = ffffffffffffffff
+Time 256000: Immediate Read. Data = aaaaaaaaaaaaaaaa
+Time 266000: Immediate Read. Data = ffffffffffffffff
+Time 276000: Immediate Read. Data = aaaaaaaaaaaaaaaa
+Time 286000: Immediate Read. Data = ffffffffffffffff
+Time 296000: Immediate Read. Data = aaaaaaaaaaaaaaaa
+Time 306000: Immediate Read. Data = ffffffffffffffff
+Time 316000: Immediate Read. Data = aaaaaaaaaaaaaaaa
+Time 326000: Immediate Read. Data = ffffffffffffffff
+Time 336000: Immediate Read. Data = aaaaaaaaaaaaaaaa
+Time 346000: Immediate Read. Data = ffffffffffffffff
+Time 356000: Immediate Read. Data = aaaaaaaaaaaaaaaa
+Time 366000: Immediate Read. Data = ffffffffffffffff
+Time 376000: Immediate Read. Data = aaaaaaaaaaaaaaaa
+Time 386000: Immediate Read. Data = ffffffffffffffff
+Time 396000: Immediate Read. Data = aaaaaaaaaaaaaaaa
+Time 406000: Immediate Read. Data = ffffffffffffffff
+Time 416000: Immediate Read. Data = aaaaaaaaaaaaaaaa
+Time 426000: Immediate Read. Data = ffffffffffffffff
+Time 436000: Immediate Read. Data = aaaaaaaaaaaaaaaa
+Time 446000: Immediate Read. Data = ffffffffffffffff
+Time 456000: Immediate Read. Data = aaaaaaaaaaaaaaaa
+Time 466000: Immediate Read. Data = ffffffffffffffff
+Time 476000: Immediate Read. Data = aaaaaaaaaaaaaaaa
+Time 486000: Immediate Read. Data = ffffffffffffffff
+Time 496000: Immediate Read. Data = aaaaaaaaaaaaaaaa
+Time 506000: Immediate Read. Data = ffffffffffffffff
+Time 516000: Immediate Read. Data = aaaaaaaaaaaaaaaa
+Time 526000: Immediate Read. Data = ffffffffffffffff
+Time 536000: Immediate Read. Data = aaaaaaaaaaaaaaaa
+Time 546000: Immediate Read. Data = ffffffffffffffff
+Time 556000: Immediate Read. Data = aaaaaaaaaaaaaaaa
+Time 566000: Immediate Read. Data = ffffffffffffffff
+Time 576000: Immediate Read. Data = aaaaaaaaaaaaaaaa
+Time 586000: Immediate Read. Data = ffffffffffffffff
+Time 596000: Immediate Read. Data = aaaaaaaaaaaaaaaa
+Time 606000: Immediate Read. Data = ffffffffffffffff
+Time 616000: Immediate Read. Data = aaaaaaaaaaaaaaaa
+Time 626000: Immediate Read. Data = ffffffffffffffff
+Time 636000: Immediate Read. Data = aaaaaaaaaaaaaaaa
+Time 646000: Immediate Read. Data = ffffffffffffffff
+Time 656000: Immediate Read. Data = aaaaaaaaaaaaaaaa
+Time 666000: Immediate Read. Data = ffffffffffffffff
+Time 676000: Immediate Read. Data = aaaaaaaaaaaaaaaa
+Time 686000: Immediate Read. Data = ffffffffffffffff
+Time 696000: Immediate Read. Data = aaaaaaaaaaaaaaaa
+Time 706000: Immediate Read. Data = ffffffffffffffff
+Time 716000: Immediate Read. Data = aaaaaaaaaaaaaaaa
+Time 726000: Immediate Read. Data = ffffffffffffffff
+Time 736000: Immediate Read. Data = aaaaaaaaaaaaaaaa
+Time 746000: Immediate Read. Data = ffffffffffffffff
+Time 756000: Immediate Read. Data = aaaaaaaaaaaaaaaa
+Time 766000: Immediate Read. Data = ffffffffffffffff
+Time 776000: Immediate Read. Data = aaaaaaaaaaaaaaaa
+Time 786000: Immediate Read. Data = ffffffffffffffff
+Time 796000: Immediate Read. Data = aaaaaaaaaaaaaaaa
+Time 806000: Immediate Read. Data = ffffffffffffffff
+Time 816000: Immediate Read. Data = aaaaaaaaaaaaaaaa
+Time 826000: Immediate Read. Data = ffffffffffffffff
+Time 836000: Immediate Read. Data = aaaaaaaaaaaaaaaa
+Time 846000: Immediate Read. Data = ffffffffffffffff
+Time 856000: Immediate Read. Data = aaaaaaaaaaaaaaaa
+Time 866000: Immediate Read. Data = ffffffffffffffff
+Time 876000: Immediate Read. Data = aaaaaaaaaaaaaaaa
+Time 886000: Immediate Read. Data = ffffffffffffffff
+Time 896000: Immediate Read. Data = aaaaaaaaaaaaaaaa
+Time 906000: Immediate Read. Data = ffffffffffffffff
+Time 916000: Immediate Read. Data = aaaaaaaaaaaaaaaa
+Time 926000: Immediate Read. Data = ffffffffffffffff
+Time 936000: Immediate Read. Data = aaaaaaaaaaaaaaaa
+Time 946000: Immediate Read. Data = ffffffffffffffff
+Time 956000: Immediate Read. Data = aaaaaaaaaaaaaaaa
+Time 966000: Immediate Read. Data = ffffffffffffffff
+Time 976000: Immediate Read. Data = aaaaaaaaaaaaaaaa
+Time 986000: Immediate Read. Data = ffffffffffffffff
+Time 996000: Immediate Read. Data = aaaaaaaaaaaaaaaa
+Time 1006000: Immediate Read. Data = ffffffffffffffff
+Time 1016000: Immediate Read. Data = aaaaaaaaaaaaaaaa
+Time 1026000: Immediate Read. Data = ffffffffffffffff
+Time 1036000: Immediate Read. Data = aaaaaaaaaaaaaaaa
+Time 1046000: Immediate Read. Data = ffffffffffffffff
+Time 1056000: Immediate Read. Data = aaaaaaaaaaaaaaaa
+Time 1066000: Immediate Read. Data = ffffffffffffffff
+Time 1076000: Immediate Read. Data = aaaaaaaaaaaaaaaa
+Time 1086000: Immediate Read. Data = ffffffffffffffff
+Time 1096000: Immediate Read. Data = aaaaaaaaaaaaaaaa
+Time 1106000: Immediate Read. Data = ffffffffffffffff
+Time 1116000: Immediate Read. Data = aaaaaaaaaaaaaaaa
+Time 1126000: Immediate Read. Data = ffffffffffffffff
+Time 1136000: Immediate Read. Data = aaaaaaaaaaaaaaaa
+Time 1146000: Immediate Read. Data = ffffffffffffffff
+Time 1156000: Immediate Read. Data = aaaaaaaaaaaaaaaa
+Time 1166000: Immediate Read. Data = ffffffffffffffff
+Time 1176000: Immediate Read. Data = aaaaaaaaaaaaaaaa
+Time 1186000: Immediate Read. Data = ffffffffffffffff
+Time 1196000: Immediate Read. Data = aaaaaaaaaaaaaaaa
+Time 1206000: Immediate Read. Data = ffffffffffffffff
+Time 1216000: Immediate Read. Data = aaaaaaaaaaaaaaaa
+Time 1226000: Immediate Read. Data = ffffffffffffffff
+Time 1236000: Immediate Read. Data = aaaaaaaaaaaaaaaa
+Time 1246000: Immediate Read. Data = ffffffffffffffff
+Time 1256000: Immediate Read. Data = aaaaaaaaaaaaaaaa
+Time 1266000: Immediate Read. Data = ffffffffffffffff
+Time 1276000: Immediate Read. Data = aaaaaaaaaaaaaaaa
+Time 1286000: Immediate Read. Data = ffffffffffffffff
+Time 1296000: Immediate Read. Data = aaaaaaaaaaaaaaaa
+Time 1306000: Immediate Read. Data = ffffffffffffffff
+Time 1316000: Immediate Read. Data = aaaaaaaaaaaaaaaa
+Time 1326000: Immediate Read. Data = ffffffffffffffff
+Time 1336000: Immediate Read. Data = aaaaaaaaaaaaaaaa
+Time 1346000: Immediate Read. Data = ffffffffffffffff
+Time 1356000: Immediate Read. Data = aaaaaaaaaaaaaaaa
+Time 1366000: Immediate Read. Data = ffffffffffffffff
+Time 1376000: Immediate Read. Data = aaaaaaaaaaaaaaaa
+Time 1386000: Immediate Read. Data = ffffffffffffffff
+Time 1396000: Immediate Read. Data = aaaaaaaaaaaaaaaa
+Time 1406000: Immediate Read. Data = ffffffffffffffff
+Time 1416000: Immediate Read. Data = aaaaaaaaaaaaaaaa
+Time 1426000: Immediate Read. Data = ffffffffffffffff
+Time 1436000: Immediate Read. Data = aaaaaaaaaaaaaaaa
+Time 1446000: Immediate Read. Data = ffffffffffffffff
+Time 1456000: Immediate Read. Data = aaaaaaaaaaaaaaaa
+Time 1466000: Immediate Read. Data = ffffffffffffffff
+Time 1476000: Immediate Read. Data = aaaaaaaaaaaaaaaa
+Time 1486000: Immediate Read. Data = ffffffffffffffff
+Time 1496000: Immediate Read. Data = aaaaaaaaaaaaaaaa
+Time 1506000: Immediate Read. Data = ffffffffffffffff
+Time 1516000: Immediate Read. Data = aaaaaaaaaaaaaaaa
+Time 1526000: Immediate Read. Data = ffffffffffffffff
+Time 1536000: Immediate Read. Data = aaaaaaaaaaaaaaaa
+Time 1546000: Immediate Read. Data = ffffffffffffffff
+Time 1556000: Immediate Read. Data = aaaaaaaaaaaaaaaa
+Time 1566000: Immediate Read. Data = ffffffffffffffff
+Time 1576000: Immediate Read. Data = aaaaaaaaaaaaaaaa
+Time 1586000: Immediate Read. Data = ffffffffffffffff
+Time 1596000: Immediate Read. Data = aaaaaaaaaaaaaaaa
+Time 1606000: Immediate Read. Data = ffffffffffffffff
+Time 1616000: Immediate Read. Data = aaaaaaaaaaaaaaaa
+Time 1626000: Immediate Read. Data = ffffffffffffffff
+Time 1636000: Immediate Read. Data = aaaaaaaaaaaaaaaa
+Time 1646000: Immediate Read. Data = ffffffffffffffff
+Time 1656000: Immediate Read. Data = aaaaaaaaaaaaaaaa
+Time 1666000: Immediate Read. Data = ffffffffffffffff
+Time 1676000: Immediate Read. Data = aaaaaaaaaaaaaaaa
+Time 1686000: Immediate Read. Data = ffffffffffffffff
+Time 1696000: Immediate Read. Data = aaaaaaaaaaaaaaaa
+Time 1706000: Immediate Read. Data = ffffffffffffffff
+Time 1716000: Immediate Read. Data = aaaaaaaaaaaaaaaa
+Time 1726000: Immediate Read. Data = ffffffffffffffff
+Time 1736000: Immediate Read. Data = aaaaaaaaaaaaaaaa
+Time 1746000: Immediate Read. Data = ffffffffffffffff
+Time 1756000: Immediate Read. Data = aaaaaaaaaaaaaaaa
+Time 1766000: Immediate Read. Data = ffffffffffffffff
+Time 1776000: Immediate Read. Data = aaaaaaaaaaaaaaaa
+Time 1786000: Immediate Read. Data = ffffffffffffffff
+Time 1796000: Immediate Read. Data = aaaaaaaaaaaaaaaa
+Time 1806000: Immediate Read. Data = ffffffffffffffff
+Time 1816000: Immediate Read. Data = aaaaaaaaaaaaaaaa
+Time 1826000: Immediate Read. Data = ffffffffffffffff
+Time 1836000: Immediate Read. Data = aaaaaaaaaaaaaaaa
+Time 1846000: Immediate Read. Data = ffffffffffffffff
+Time 1856000: Immediate Read. Data = aaaaaaaaaaaaaaaa
+Time 1866000: Immediate Read. Data = ffffffffffffffff
+Time 1876000: Immediate Read. Data = aaaaaaaaaaaaaaaa
+Time 1886000: Immediate Read. Data = ffffffffffffffff
+Time 1896000: Immediate Read. Data = aaaaaaaaaaaaaaaa
+Time 1906000: Immediate Read. Data = ffffffffffffffff
+Time 1916000: Immediate Read. Data = aaaaaaaaaaaaaaaa
+Time 1926000: Immediate Read. Data = ffffffffffffffff
+Time 1936000: Immediate Read. Data = aaaaaaaaaaaaaaaa
+Time 1946000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 1956000: Immediate Read. Data = aaaaaaaaaaaaaaaa
+Time 1966000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 1976000: Immediate Read. Data = aaaaaaaaaaaaaaaa
+Time 1986000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 1996000: Immediate Read. Data = aaaaaaaaaaaaaaaa
+Time 2006000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 2016000: Immediate Read. Data = aaaaaaaaaaaaaaaa
+Time 2026000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 2036000: Immediate Read. Data = aaaaaaaaaaaaaaaa
+Time 2046000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 2056000: Immediate Read. Data = aaaaaaaaaaaaaaaa
+Time 2066000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 2076000: Immediate Read. Data = aaaaaaaaaaaaaaaa
+Time 2086000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 2096000: Immediate Read. Data = aaaaaaaaaaaaaaaa
+Time 2106000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 2116000: Immediate Read. Data = aaaaaaaaaaaaaaaa
+Time 2126000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 2136000: Immediate Read. Data = aaaaaaaaaaaaaaaa
+Time 2146000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 2156000: Immediate Read. Data = aaaaaaaaaaaaaaaa
+Time 2166000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 2176000: Immediate Read. Data = aaaaaaaaaaaaaaaa
+Time 2186000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 2196000: Immediate Read. Data = aaaaaaaaaaaaaaaa
+Time 2206000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 2216000: Immediate Read. Data = aaaaaaaaaaaaaaaa
+Time 2226000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 2236000: Immediate Read. Data = aaaaaaaaaaaaaaaa
+Time 2246000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 2256000: Immediate Read. Data = aaaaaaaaaaaaaaaa
+Time 2266000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 2276000: Immediate Read. Data = aaaaaaaaaaaaaaaa
+Time 2286000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 2296000: Immediate Read. Data = aaaaaaaaaaaaaaaa
+Time 2306000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 2316000: Immediate Read. Data = aaaaaaaaaaaaaaaa
+Time 2326000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 2336000: Immediate Read. Data = aaaaaaaaaaaaaaaa
+Time 2346000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 2356000: Immediate Read. Data = aaaaaaaaaaaaaaaa
+Time 2366000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 2376000: Immediate Read. Data = aaaaaaaaaaaaaaaa
+Time 2386000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 2396000: Immediate Read. Data = aaaaaaaaaaaaaaaa
+Time 2406000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 2416000: Immediate Read. Data = aaaaaaaaaaaaaaaa
+Time 2426000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 2436000: Immediate Read. Data = aaaaaaaaaaaaaaaa
+Time 2446000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 2456000: Immediate Read. Data = aaaaaaaaaaaaaaaa
+Time 2466000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 2476000: Immediate Read. Data = aaaaaaaaaaaaaaaa
+Time 2486000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 2496000: Immediate Read. Data = aaaaaaaaaaaaaaaa
+Time 2506000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 2516000: Immediate Read. Data = aaaaaaaaaaaaaaaa
+Time 2526000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 2536000: Immediate Read. Data = aaaaaaaaaaaaaaaa
+Time 2546000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 2556000: Immediate Read. Data = aaaaaaaaaaaaaaaa
+Time 2566000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 2576000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 2586000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 2596000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 2606000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 2616000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 2626000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 2636000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 2646000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 2656000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 2666000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 2676000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 2686000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 2696000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 2706000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 2716000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 2726000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 2736000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 2746000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 2756000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 2766000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 2776000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 2786000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 2796000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 2806000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 2816000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 2826000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 2836000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 2846000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 2856000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 2866000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 2876000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 2886000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 2896000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 2906000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 2916000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 2926000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 2936000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 2946000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 2956000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 2966000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 2976000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 2986000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 2996000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 3006000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 3016000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 3026000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 3036000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 3046000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 3056000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 3066000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 3076000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 3086000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 3096000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 3106000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 3116000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 3126000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 3136000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 3146000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 3156000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 3166000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 3176000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 3186000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 3196000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 3206000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 3216000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 3226000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 3236000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 3246000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 3256000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 3266000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 3276000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 3286000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 3296000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 3306000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 3316000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 3326000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 3336000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 3346000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 3356000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 3366000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 3376000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 3386000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 3396000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 3406000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 3416000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 3426000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 3436000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 3446000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 3456000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 3466000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 3476000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 3486000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 3496000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 3506000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 3516000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 3526000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 3536000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 3546000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 3556000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 3566000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 3576000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 3586000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 3596000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 3606000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 3616000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 3626000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 3636000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 3646000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 3656000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 3666000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 3676000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 3686000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 3696000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 3706000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 3716000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 3726000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 3736000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 3746000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 3756000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 3766000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 3776000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 3786000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 3796000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 3806000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 3816000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 3826000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 3836000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 3846000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 3856000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 3866000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 3876000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 3886000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 3896000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 3906000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 3916000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 3926000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 3936000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 3946000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 3956000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 3966000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 3976000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 3986000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 3996000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 4006000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 4016000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 4026000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 4036000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 4046000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 4056000: Immediate Read. Data = xxxxxxxxxxxxxxxx
+Time 4076000: SUCCESS! Data decayed to X .
+Simulation finished.
+Simulation complete via $finish(1) at time 4076 NS + 0
+./GC_DRAM_4096_TB.v:97         $finish;
+xcelium> ^C
+xcelium> exit
+TOOL:	xrun(64)	23.09-s013: Exiting on Mar 19, 2026 at 11:38:46 UTC  (total: 00:03:12)

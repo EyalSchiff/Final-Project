@@ -1,0 +1,5 @@
+//
+// File created by:  xrun
+// Do not modify this file
+
+s1::(18Mar2026:14:58:16):( xrun SRAM_512.v SRAM_512_TB.v +access+rwc -gui -clean )

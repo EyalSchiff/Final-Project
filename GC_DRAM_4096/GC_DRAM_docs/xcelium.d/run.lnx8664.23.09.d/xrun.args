@@ -1,0 +1,9 @@
+//
+// File created by:  xrun
+// Do not modify this file
+//
+GC_DRAM_4096.v
+GC_DRAM_4096_TB.v
++access+rwc
+-gui
+-clean

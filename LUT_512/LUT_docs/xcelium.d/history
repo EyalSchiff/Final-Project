@@ -1,0 +1,5 @@
+//
+// File created by:  xrun
+// Do not modify this file
+
+s1::(18Mar2026:14:37:02):( xrun LUT_512_TB.v LUT_512.v +access+rwc -gui -clean )

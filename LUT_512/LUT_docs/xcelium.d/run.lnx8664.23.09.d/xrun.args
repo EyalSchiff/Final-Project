@@ -1,0 +1,9 @@
+//
+// File created by:  xrun
+// Do not modify this file
+//
+LUT_512_TB.v
+LUT_512.v
++access+rwc
+-gui
+-clean
