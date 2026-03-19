@@ -8,7 +8,7 @@
 
 ## 📌 The Challenge: The Volatility of Embedded Memories
 
-In modern System-on-Chip (SoC) architectures, embedded memories are crucial, often occupying over 70% of the silicon real estate. While standard SRAM is fast, it is area-intensive (requiring 6 transistors per cell). Gain-Cell embedded DRAM (GC-eDRAM) offers a much higher density alternative by storing data as an electrical charge on a capacitor. 
+In modern System-on-Chip (SoC) architectures, embedded memories are crucial. While standard SRAM is fast, it is area-intensive (requiring 6 transistors per cell). Gain-Cell embedded DRAM (GC-eDRAM) offers a much higher density alternative by storing data as an electrical charge on a capacitor. 
 
 However, GC-eDRAM suffers from inherent volatility. The stored charge dissipates over time due to unavoidable leakage currents in nanometer CMOS processes, primarily:
 * **Sub-threshold Leakage:** Current flowing even when the write transistor is "OFF".
@@ -18,7 +18,7 @@ However, GC-eDRAM suffers from inherent volatility. The stored charge dissipates
 The time it takes for a cell's voltage to drop below a readable threshold is the **Data Retention Time (DRT)**. 
 
 ### The "Refresh Penalty"
-Due to manufacturing process variations (such as Random Dopant Fluctuation), the DRT is not uniform across the memory array. While most cells can hold data for a long time, a statistical "tail" of weak cells loses charge very quickly (e.g., a worst-case DRT of 1.4µs). To guarantee 100% data integrity, the *entire* memory macro must be continuously refreshed at a frequency dictated solely by these few weakest cells. This creates a massive "Refresh Penalty," leading to severe static power consumption and reduced memory bandwidth.
+Due to manufacturing process variations (such as Random Dopant Fluctuation), the DRT is not uniform across the memory array. While most cells can hold data for a long time, a statistical "tail" of weak cells loses charge very quickly . To guarantee 100% data integrity, the *entire* memory macro must be continuously refreshed at a frequency dictated solely by these few weakest cells. This creates a massive "Refresh Penalty," leading to severe static power consumption and reduced memory bandwidth.
 
 ---
 
@@ -50,9 +50,6 @@ When a write operation is triggered, the target address is evaluated by the LUT.
 The read path utilizes zero-latency combinational logic:
 * **MISS (`hit = 0`):** The address belongs to a "strong" cell. The controller fetches the data directly from the GC-eDRAM array.
 * **HIT (`hit = 1`):** The address belongs to a "weak" cell. Even if the data inside the eDRAM has naturally decayed to an unknown state (`1'bx`), the controller toggles an output multiplexer to flawlessly fetch the intact data from the SRAM.
-
-### 3. Dynamic Power Gating
-The ultimate goal is power reduction. When the LUT flags a "HIT" during a memory access, the Top-Level controller actively disables the Write Enable (`we`) and Read Enable (`re`) signals to the main GC-eDRAM array. This prevents the large, highly capacitive array from switching unnecessarily, saving substantial dynamic power.
 
 ---
 
